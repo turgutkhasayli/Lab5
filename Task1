@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiqurlarim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="qutu yasil"></div>
+    <div class="qutu mavi"></div>
+    <div class="qutu sari"></div>
+    <div class="qutu qirmizi"></div>
+
+</body>
+</html>
+
+
+CSS:
+
+body {
+    background-color: #e0e0e0;
+}
+
+.qutu {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.yasil {
+    background-color: green;
+    top: 100px;
+    left: 100px;
+}
+
+.mavi {
+    background-color: blue;
+    top: 100px;
+    left: 320px;
+}
+
+.sari {
+    background-color: yellow;
+    top: 210px;
+    left: 190px;
+}
+
+.qirmizi {
+    background-color: red;
+    top: 210px;
+    left: 410px;
+}
