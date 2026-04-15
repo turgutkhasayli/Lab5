@@ -10,7 +10,7 @@
     <div class="konteyner">
         <div class="kart">
             <div class="sekil-sahəsi">
-                <img src="mehsul1.jpg" alt="Məhsul">
+                <img src="Stranger-Things-5-Poster-Oficial-882x1024.jpg" alt="Məhsul">
                 <button class="duyme">Click</button>
             </div>
             <div class="melumat">
@@ -21,7 +21,7 @@
 
         <div class="kart">
             <div class="sekil-sahəsi">
-                <img src="mehsul2.jpg" alt="Məhsul">
+                <img src="wLQLTdvINL3U2Hs8vsBU8qE7HoB.webp" alt="Məhsul">
                 <button class="duyme">Click</button>
             </div>
             <div class="melumat">
@@ -34,7 +34,6 @@
 
 </body>
 </html>
-
 
 CSS:
 
