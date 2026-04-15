@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Məhsul Səhifəsi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="konteyner">
+        <div class="kart">
+            <div class="sekil-sahəsi">
+                <img src="mehsul1.jpg" alt="Məhsul">
+                <button class="duyme">Click</button>
+            </div>
+            <div class="melumat">
+                <span class="ad">Məhsul 1</span>
+                <span class="qiymet">10 AZN</span>
+            </div>
+        </div>
+
+        <div class="kart">
+            <div class="sekil-sahəsi">
+                <img src="mehsul2.jpg" alt="Məhsul">
+                <button class="duyme">Click</button>
+            </div>
+            <div class="melumat">
+                <span class="ad">Məhsul 2</span>
+                <span class="qiymet">15 AZN</span>
+            </div>
+        </div>
+        
+        </div>
+
+</body>
+</html>
+
+
+CSS:
+
+body {
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.konteyner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;       
+    max-width: 1000px;
+}
+
+
+.kart {
+    background-color: white;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.sekil-sahəsi {
+    position: relative; 
+}
+
+.sekil-sahəsi img {
+    width: 100%;
+    display: block;
+}
+
+.duyme {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.melumat {
+    display: flex;
+    justify-content: space-between; /* Adı sola, qiyməti sağa itələyir */
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.qiymet {
+    color: green;
+}
